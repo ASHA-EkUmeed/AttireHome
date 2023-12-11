@@ -8,6 +8,14 @@ The Attire Home E-commerce project aims to establish a robust online platform fo
 **Project Setup:**
 In the initial step of project setup, the use of npm (Node Package Manager) is crucial for installing the necessary node modules. This sets the foundation for a streamlined development environment.
 
+** Create a .env File**
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/
+JWT_SECRET='abc123'
+PAGINATION_LIMIT = 8
+
+
 **Folder Structure:**
 The project is organized systematically into folders such as 'src' for source code, 'components' for reusable UI elements, 'screens' for distinct interface sections, and 'slices' for Redux state management. This structured approach enhances code readability and maintainability.
 
