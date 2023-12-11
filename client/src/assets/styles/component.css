@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rotate {
+    font-family: 'Rock Salt', cursive;
+    width: 23%;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive;
+
+
+}
+.fontstyle{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+
+
+}
+
+.log:hover {
+    border: 2px solid black;
+}
+
+.hvr:hover {
+    border: 2px solid black;
+}
+
+.bd-curve {
+    width: 35vw;
+}
+
+.cart {
+    font-size: 30px
+}
+
+
+
+
+.ftcon {
+    width: 90%;
+    padding-top: 100px;
+
+}
+
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button {
+    position: relative;
+}
+
+
+button::before,
+button::after {
+    background: white;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.btn-4::after {
+    background: #da252ee4;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.btn-4:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+}
+
+
+.card-text {
+    text-align: center
+}
+
+.fps {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #f5f2f2;
+    -webkit-text-stroke: 1px rgb(30, 6, 6);
+    font-family: 'Pacifico', cursive
+}

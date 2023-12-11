@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+[list]:not([type='date']):not([type='datetime-local']):not([type='month']):not(
+    [type='week']
+  ):not([type='time'])::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+  a {
+     color: purple;
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgb(39, 32, 39);
+  }
+  input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
